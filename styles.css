@@ -290,7 +290,7 @@ textarea {
 
 .nav-menu {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.25rem;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -298,6 +298,7 @@ textarea {
 .nav-menu a {
   color: var(--muted);
   transition: color 0.2s ease;
+  white-space: nowrap;
 }
 
 .nav-menu a:hover {
